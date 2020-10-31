@@ -1,6 +1,7 @@
 #navbar {
     flex-direction: column;
     align-items:center;
+    height: 13vh;
 }
 
 #navbar .logo {
@@ -13,7 +14,11 @@
 }
 
 #showcase {
-    height:100vh;
+    height:87vh;
+}
+
+#showcase:after {
+    height: 87vh;
 }
 
 #showcase p {
@@ -39,6 +44,7 @@
 #who {
     display:block;
     flex-direction: column;
+    font-size: 12px;
 }
 
 #who .who-img{
